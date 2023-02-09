@@ -2,7 +2,7 @@
 # python train.py
 # set random seed for reproducibility
 import tensorflow as tf
-tf.keras.utils.set_random_seed(42)
+tf.random.set_seed(42)
 # import the necessary packages
 import config
 from schedule import WarmUpCosine
